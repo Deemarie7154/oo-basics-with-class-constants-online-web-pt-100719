@@ -15,7 +15,7 @@ BRANDS = []
     puts "Your shoe is as good as new!"
   end
 
-def brands=(genre) 
+def brands=(brands) 
   @brands = brands
   
   if (brands == brands.uniq)

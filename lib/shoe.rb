@@ -17,6 +17,6 @@ BRANDS = []
 
 def brands=(genre) 
   @brands = brands
-    BRANDS << brands.uniq
+    BRANDS << brands
   end
 end

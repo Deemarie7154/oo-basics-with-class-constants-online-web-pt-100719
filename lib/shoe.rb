@@ -17,9 +17,7 @@ BRANDS = []
 
 def brands=(brands) 
   @brands = brands
-  
-  if (brands == brands.uniq)
-    BRANDS << brands
+  BRANDS << brands
   end
 end
 end

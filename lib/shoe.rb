@@ -20,4 +20,4 @@ def brands=(brands)
   BRANDS << brands
   end
 end
-end
+

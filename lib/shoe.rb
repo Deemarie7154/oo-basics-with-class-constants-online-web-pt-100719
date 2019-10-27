@@ -18,7 +18,8 @@ BRANDS = []
 def brands=(genre) 
   @brands = brands
   
-  if br
+  if (brands == brands.uniq)
     BRANDS << brands
   end
+end
 end

@@ -17,6 +17,8 @@ BRANDS = []
 
 def brands=(genre) 
   @brands = brands
+  
+  if br
     BRANDS << brands
   end
 end
